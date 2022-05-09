@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  background-color: #F9F7F7;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  font-size: 40px;
+  color: #827397;
+}
+
+.h1_surname {
+  margin-left: 50px;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100px;
+  max-height: 160px;
+  margin: 10px auto;
+}
+
+.container_heading {
+  display: flex;
+}
+.container_heading h1, .container_heading img {
+  width: 50%;
+}
+
+.heading_middle {
+  font-size: 30px;
+  color: #112D4E;
+  margin-bottom: 5px;
+}
+
+.heading_middle_blocks {
+  max-width: 100%;
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: #DBE2EF;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.heading_middle_blocks ul {
+  margin-left: 5px;
+}
+
+.info_exp {
+  display: flex;
+}
+
+.exp {
+  margin-left: 5px;
+  width: 50%;
+}
+
+.work_exp td {
+  padding: 5px;
+}
+
+.work_exp td:last-child {
+  color: #8675A9;
+}
+
+.courses_exp td{
+  padding: 5px;
+}
+
+.courses_exp td:last-child {
+  color: #8675A9;
+}
+
+.heading_middle_blocks_hobby {
+  list-style-type: none;
+  padding-left: none;
+}
+
+.contacts {
+  min-height: 20px;
+}
+
+.email {
+  color: #8675A9;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #112D4E;
+}
+
+@media (max-width: 500px) {
+
+  h1 {
+    color: #4D4C7D;
+  }
+
+  .h1_surname {
+    margin-left: 0px;
+  }
+
+  .heading_middle {
+  text-align: center;
+  }
+}
